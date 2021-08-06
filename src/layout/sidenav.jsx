@@ -43,7 +43,7 @@ const SideNav = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/Reportes" className="nav-link">
+                <NavLink exact to="/Reportes" className="nav-link">
                 <div
                   className="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                   <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@ const SideNav = () => {
                 <h6 className="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Usuario</h6>
               </li>
               <li className="nav-item">
-                <NavLink to="/Reporte" className="nav-link">
+                <NavLink exact to="/Reporte" className="nav-link">
                 <div
                   className="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                   <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg">
