@@ -31,7 +31,7 @@ function App() {
                 <RutaPrivada component={Reportes} path="/Reportes" exact/>
                 <RutaPrivada component={ReportePersonal} path="/Reporte" exact/>
                 <Route exact path='/Login' component={Login} />
-                <RutaPrivada exact path="/" component={Home}  /> 
+                <Route exact path="/" component={Home}  /> 
               </main>
             </div>
             </>
